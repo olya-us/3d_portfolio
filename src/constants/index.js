@@ -1,6 +1,5 @@
 import {
     mobile,
-    backend,
     creator,
     web,
     javascript,
@@ -48,10 +47,6 @@ const services = [
     {
       title: "React Native Developer",
       icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
     },
     {
       title: "Content Creator",
