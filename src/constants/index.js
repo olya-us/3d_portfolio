@@ -126,7 +126,7 @@ const testimonials = [
   
 const projects = [
     {
-      name: "Car Rent",
+      name: "UST",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -144,10 +144,10 @@ const projects = [
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://ust.inc/",
     },
     {
-      name: "Job IT",
+      name: "Unitsky Engineer",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -165,10 +165,10 @@ const projects = [
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://unitsky.engineer/",
     },
     {
-      name: "Trip Guide",
+      name: "7arent",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
@@ -186,7 +186,49 @@ const projects = [
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://7arent.by/",
+    },
+    {
+      name: "AET",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "http://aet.space/",
+    },
+    {
+      name: "SW Plant",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://sw-plant.by/",
     },
 ];
   
