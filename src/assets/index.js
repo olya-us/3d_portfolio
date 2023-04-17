@@ -17,9 +17,12 @@ import threejs from "./tech/threejs.svg";
 
 import ust from "./company/ust.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
+import ust_png from "./ust.png";
+import engineer from "./engineer.png";
+import rent from "./7arent.png";
+import aet from "./aet.png";
+import plant from "./plant.png";
 
 export {
   logo,
@@ -38,7 +41,9 @@ export {
   tailwind,
   threejs,
   ust,
-  carrent,
-  jobit,
-  tripguide,
+  ust_png,
+  engineer,
+  rent,
+  aet,
+  plant,
 };

@@ -10,9 +10,11 @@ import {
     git,
     figma,
     ust,
-    carrent,
-    jobit,
-    tripguide,
+    ust_png,
+    engineer,
+    rent,
+    aet,
+    plant,
     threejs,
 } from "../assets";
   
@@ -37,7 +39,7 @@ const services = [
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
@@ -101,26 +103,20 @@ const testimonials = [
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Olya proved me wrong.",
-      name: "Sara",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      name: "Julia",
+      image: "https://randomuser.me/api/portraits/women/76.jpg",
     },
     {
       testimonial:
         "I've never met a web developer who truly cares about their clients' success like Olya does.",
-      name: "Chris",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      name: "Alex",
+      image: "https://randomuser.me/api/portraits/men/11.jpg",
     },
     {
       testimonial:
         "After Olya optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      image: "https://randomuser.me/api/portraits/women/43.jpg",
     },
 ];
   
@@ -128,106 +124,102 @@ const projects = [
     {
       name: "UST",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Responsive main site of the engineering company engaged in the development, design and construction of transport systems.",
       tags: [
         {
-          name: "react",
+          name: "javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "scss",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "gulp",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: ust_png,
       source_code_link: "https://ust.inc/",
     },
     {
       name: "Unitsky Engineer",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Personal site for engineer of string transport systems. The solutions incorporates in the basis of string systems have a global transformative potential aimed at creating the foundation for the safe and harmonious development of civilization.",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "gulp",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: engineer,
+      source_code_link: "https://unitsky.engineer/",
+    },
+    {
+      name: "7arent",
+      description:
+        "Application offers office space for rent, where you can see photos of the premises themselves and choose the right one.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
           name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://unitsky.engineer/",
-    },
-    {
-      name: "7arent",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
           color: "green-text-gradient",
         },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
       ],
-      image: tripguide,
+      image: rent,
       source_code_link: "https://7arent.by/",
     },
     {
       name: "AET",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Site for uSpace (is a global, ecological space project on saving Humanity).",
       tags: [
         {
-          name: "nextjs",
+          name: "javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "scss",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "gulp",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: aet,
       source_code_link: "http://aet.space/",
     },
     {
       name: "SW Plant",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The site offers services for the provision of types of work from 3D prototyping to the manufacture of industrial batches of parts and assemblies according to drawings.",
       tags: [
         {
-          name: "nextjs",
+          name: "javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "scss",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "gulp",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: plant,
       source_code_link: "https://sw-plant.by/",
     },
 ];
