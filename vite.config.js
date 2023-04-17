@@ -1,14 +1,10 @@
 import { defineConfig } from 'vite'
-import {react, solidPlugin, chunkSplitPlugin} from '@vitejs/plugin-react'
+import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     react(),
-    solidPlugin(),
-    chunkSplitPlugin({
-      strategy: 'default',
-    })
   ],
   build: {
     chunkSizeWarningLimit: 1600
