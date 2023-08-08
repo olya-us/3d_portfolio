@@ -39,7 +39,7 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] mac-w-3xl leading-[30px]'
+        className='mt-4 text-secondary xs:text-[17px] text-[16px] mac-w-3xl leading-[30px]'
       >
         I'm a web developer with 4+ years of experience in building websites using modern web technologies. My focus is on creating websites that are responsive, adaptive, and cross-browser compatible.<br/><br/>
         I'm proficient in using HTML5, CSS3, and SASS for building the structure and styling of websites. I also have experience in using JavaScript (ES6), jQuery, and React to create dynamic and interactive websites. Additionally, I am skilled in setting up build and development processes using tools such as npm, Gulp, and Git, which helps me to efficiently manage and track my code.<br/><br/>
