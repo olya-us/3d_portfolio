@@ -23,6 +23,7 @@ import engineer from "./engineer.png";
 import rent from "./7arent.png";
 import aet from "./aet.png";
 import plant from "./plant.png";
+import gti from "./gti.png";
 
 export {
   logo,
@@ -46,4 +47,5 @@ export {
   rent,
   aet,
   plant,
+  gti,
 };

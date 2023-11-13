@@ -15,6 +15,7 @@ import {
     rent,
     aet,
     plant,
+    gti,
     threejs,
 } from "../assets";
   
@@ -221,6 +222,23 @@ const projects = [
       ],
       image: plant,
       source_code_link: "https://sw-plant.by/",
+    },
+    {
+      name: "GTI",
+      description:
+        "The site is responsible for the formation and promotion of a portfolio of manufacturing and transport companies.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "green-text-gradient",
+        },
+      ],
+      image: gti,
+      source_code_link: "https://gti.holdings/",
     },
 ];
   

@@ -86,6 +86,7 @@ const Contact = () => {
               type='text'
               name='name'
               value={form.name}
+              autoComplete="on"
               onChange={handleChange}
               placeholder="What's your name?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
@@ -97,6 +98,7 @@ const Contact = () => {
               type='email'
               name='email'
               value={form.email}
+              autoComplete="on"
               onChange={handleChange}
               placeholder="What's your web address?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
@@ -105,7 +107,7 @@ const Contact = () => {
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Message</span>
             <textarea
-              rows={7}
+              rows={5}
               name='message'
               value={form.message}
               onChange={handleChange}
