@@ -16,6 +16,7 @@ import {
     aet,
     plant,
     gti,
+    ukfh,
     threejs,
 } from "../assets";
   
@@ -123,6 +124,44 @@ const testimonials = [
   
 const projects = [
     {
+      name: "GTI",
+      description:
+        "The site is responsible for the formation and promotion of a portfolio of manufacturing and transport companies.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "green-text-gradient",
+        },
+      ],
+      image: gti,
+      source_code_link: "https://gti.holdings/",
+    },
+    {
+      name: "UKFH",
+      description:
+        "Creation of a website for growing and producing natural organic farm products and fertilizers: vegetables, fruits, berries, fish, meat, semi-finished products.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ukfh,
+      source_code_link: "https://ukfh.by/",
+    },
+    {
       name: "UST",
       description:
         "Responsive main site of the engineering company engaged in the development, design and construction of transport systems.",
@@ -222,23 +261,6 @@ const projects = [
       ],
       image: plant,
       source_code_link: "https://sw-plant.by/",
-    },
-    {
-      name: "GTI",
-      description:
-        "The site is responsible for the formation and promotion of a portfolio of manufacturing and transport companies.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "green-text-gradient",
-        },
-      ],
-      image: gti,
-      source_code_link: "https://gti.holdings/",
     },
 ];
   

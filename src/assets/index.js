@@ -24,6 +24,7 @@ import rent from "./7arent.png";
 import aet from "./aet.png";
 import plant from "./plant.png";
 import gti from "./gti.png";
+import ukfh from "./ukfh.png";
 
 export {
   logo,
@@ -48,4 +49,5 @@ export {
   aet,
   plant,
   gti,
+  ukfh
 };
