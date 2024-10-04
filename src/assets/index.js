@@ -25,6 +25,7 @@ import aet from "./aet.png";
 import plant from "./plant.png";
 import gti from "./gti.png";
 import ukfh from "./ukfh.png";
+import konkurs from './konkurs.png'
 
 export {
   logo,
@@ -49,5 +50,6 @@ export {
   aet,
   plant,
   gti,
-  ukfh
+  ukfh,
+  konkurs
 };

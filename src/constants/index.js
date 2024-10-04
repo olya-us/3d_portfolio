@@ -17,6 +17,7 @@ import {
     plant,
     gti,
     ukfh,
+    konkurs,
     threejs,
 } from "../assets";
   
@@ -139,6 +140,27 @@ const projects = [
       ],
       image: gti,
       source_code_link: "https://gti.holdings/",
+    },
+    {
+      name: "Konkurs",
+      description:
+        "Creation of a website for scientific work competition on transport topics.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: konkurs,
+      source_code_link: "https://konkurs.ust.inc/",
     },
     {
       name: "UKFH",

@@ -41,8 +41,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary xs:text-[17px] text-[16px] mac-w-3xl leading-[30px]'
       >
-        I'm a web developer with 4+ years of experience in building websites using modern web technologies. My focus is on creating websites that are responsive, adaptive, and cross-browser compatible.<br/><br/>
-        I'm proficient in using HTML5, CSS3, and SASS for building the structure and styling of websites. I also have experience in using JavaScript (ES6), jQuery, and React to create dynamic and interactive websites. Additionally, I am skilled in setting up build and development processes using tools such as npm, Gulp, and Git, which helps me to efficiently manage and track my code.<br/><br/>
+        I specialize in crafting dynamic and responsive web applications using modern frontend technologies.<br/><br/>
+        I'm proficient in using in using JavaScript/TypeScript and React to create dynamic and interactive websites. Additionally, I am skilled in setting up build and development processes using tools such as npm, Vite, Jest, and Git, which helps me to efficiently manage and track my code.<br/><br/>
         To ensure high-quality code, I use tools like ESLint and Stylelint to improve the code's readability, maintainability, and consistency. I am also a responsible team player who works well with others and constantly seeks to learn and improve my skills.<br/><br/> 
         Let's work together to bring your ideas to life!
       </motion.p>
