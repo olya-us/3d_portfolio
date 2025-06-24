@@ -81,7 +81,7 @@ const Contact = () => {
           className='mt-12 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Name</span>
+            <span className='text-white font-medium mb-4'>Name</span>
             <input
               type='text'
               name='name'
@@ -93,19 +93,19 @@ const Contact = () => {
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your email</span>
+            <span className='text-white font-medium mb-4'>Email</span>
             <input
               type='email'
               name='email'
               value={form.email}
               autoComplete="on"
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="What's your email?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Message</span>
+            <span className='text-white font-medium mb-4'>Message</span>
             <textarea
               rows={5}
               name='message'

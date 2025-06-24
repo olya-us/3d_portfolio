@@ -17,7 +17,6 @@ import threejs from "./tech/threejs.svg";
 
 import ust from "./company/ust.png";
 
-
 import ust_png from "./ust.png";
 import engineer from "./engineer.png";
 import rent from "./7arent.png";
@@ -25,7 +24,8 @@ import aet from "./aet.png";
 import plant from "./plant.png";
 import gti from "./gti.png";
 import ukfh from "./ukfh.png";
-import konkurs from './konkurs.png'
+import konkurs from './konkurs.png';
+import macaron from './macaron.png';
 
 export {
   logo,
@@ -51,5 +51,6 @@ export {
   plant,
   gti,
   ukfh,
-  konkurs
+  konkurs,
+  macaron,
 };

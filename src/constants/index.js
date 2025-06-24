@@ -19,6 +19,7 @@ import {
     ukfh,
     konkurs,
     threejs,
+    macaron,
 } from "../assets";
   
 export const navLinks = [
@@ -29,6 +30,10 @@ export const navLinks = [
     {
       id: "work",
       title: "Work",
+    },
+    {
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -124,6 +129,27 @@ const testimonials = [
 ];
   
 const projects = [
+    {
+      name: "Macaron Shop",
+      description:
+        "A modern, responsive eCommerce application powered by CommerceTools. The project is a single-page application that allows users to browse the product catalog, add products to the cart, and checkout.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: macaron,
+      source_code_link: "https://macaron-store.netlify.app/",
+    },
     {
       name: "GTI",
       description:
